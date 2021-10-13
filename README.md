@@ -16,7 +16,7 @@ A Qlik Sense modal extension that allows embedding of contents and texts within 
 
 ## Demo
 <p align="center">
-  <img width="70%" alt="qs-modal preview" src="https://kabhomeblog.files.wordpress.com/2021/10/airtableqliksenseqsmodal.gif">
+  <img width="70%" alt="qs-modal preview" src="https://github.com/kabir-rab/qs-modal/blob/main/lib/img/qs-modal.gif">
 </p>
 
 # How to Install
