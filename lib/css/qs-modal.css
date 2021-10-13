@@ -1,0 +1,139 @@
+.qv-object-container {
+    text-align: center;
+    overflow: auto;
+}
+
+.qv-object-btn {
+    padding-top: 15px;
+}
+
+.qv-object-btn-margin-x-y {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.qv-object-modal--overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    /* display: none;   Hidden by default */
+    visibility: hidden;
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 999;
+    /* Specify a stack order in case you're using a different order for other elements */
+    overflow: hidden;
+}
+
+.qv-object-modal--content-container {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.qv-object-modal--body-top-text {
+    padding: 10px;
+}
+
+.qv-object-modal--body-top-text p {
+    padding-bottom: 10px;
+}
+
+.qv-object-modal--body-top-text h1 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.qv-object-modal--body-top-text h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.qv-object-modal--body-top-text h3 {
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.qv-object-modal--body-top {
+    width: 100%;
+    min-height: 40px;
+    overflow: auto;
+    border-bottom: 1px solid lightgrey;
+}
+
+.qv-object-modal--body-bottom {
+    width: 100%;
+}
+
+.qv-object-modal--content {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.qv-object-modal--body {
+    width: 100%;
+    height: 95%;
+    background-color: #fff;
+}
+
+.qv-object-modal--header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.qv-object-close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.qv-object-modal--header button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.qv-object-close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    border: 0px;
+}
+
+.qv-object-modal--active {
+    visibility: visible !important;
+}
+
+.qv-object-img {
+    width: auto;
+}
