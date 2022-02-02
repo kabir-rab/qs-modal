@@ -8,7 +8,7 @@
     },
 	"icon": "list",
 	"type": "visualization",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"author": "Kabir Rab",
 	"homepage": "https://kabonline.net",
 	"keywords": "qlik-sense, visualization",

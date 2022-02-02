@@ -1,10 +1,7 @@
 .qv-object-container {
     text-align: center;
+    height: 100%;
     overflow: auto;
-}
-
-.qv-object-btn {
-    padding-top: 15px;
 }
 
 .qv-object-btn-margin-x-y {
@@ -12,6 +9,10 @@
     margin-right: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.qv-object-hr-solid {
+    border-top: 3px solid #bbb;
 }
 
 .qv-object-modal--overlay {

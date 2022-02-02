@@ -1,4 +1,8 @@
-### _Please note: you will have to reload the page on the browser (F5), once configured the settings. This bug will be fixed in the next version.
+> _Please note: you will have to reload the page on the browser (F5), once configured the settings. This bug will be fixed in the next version.
+
+## UPDATE: 2022-02-02
+_Conditional property panel, makes it easier to configure each button._ 
+_**Bug Fix:** fixed the bug which stopped second (or more) copies from working in the same sheet. You can now use as many copies in the sheet as you like! - thanks to [Patrick Tehubijuluw](https://github.com/creatuluw "Patrick Tehubijuluw")_
 
 # qs-modal
 A Qlik Sense modal extension that allows embedding of contents and texts within Qlik Sense application. Add multiple buttons to open modals and show master visualisation or embedded contents (iFrame) within your Qlik Sense application.
